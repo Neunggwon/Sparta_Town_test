@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ac_Elf
+  m_Controller: {fileID: 9100000, guid: 807dceeaf18f4cd4a8313b0ea3ff8426, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 71ce7d320c9c8cb46b547dbed26a6d97, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 44e5d2723b0a2f742aefd8860ef65284, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b6b643b41f9cbc248ae3fd43ae14f4b3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 401b46c0522b083469d7b6a6485518c9, type: 2}
