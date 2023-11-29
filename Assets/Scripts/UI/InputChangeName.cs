@@ -10,9 +10,7 @@ public class InputChangeName : MonoBehaviour
     [SerializeField]
     private TMP_InputField inputField;
     [SerializeField]
-    private TMP_Text text;
-    [SerializeField]
-    private TMP_Text playerText;
+    private TMP_Text playerNameText;
 
     public GameObject ChangeNamePanel;
 
@@ -24,29 +22,28 @@ public class InputChangeName : MonoBehaviour
         inputField.onDeselect.AddListener(OnDeselect);
     }
 
+    //InputField의 데이터 변화가 있을 때
     public void OnValueChanged(string str)
     {
         //text.text = $"이름 : {str}";
-        playerText.text = str;
+        playerNameText.text = str;
     }
-
-    
 
     public void OnEndEdit(string str)
     {
         //text.text = $"이름 : {str}";
-        playerText.text = str;
+        playerNameText.text = str;
     }
 
     public void OnDeselect(string str)
     {
         //text.text = $"이름 : {str}";
-        playerText.text = str;
+        playerNameText.text = str;
     }
 
     public void OnSelect(string str)
     {
-        playerText.text = str;
+        playerNameText.text = str;
     }
 
 
